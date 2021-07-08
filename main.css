@@ -1,0 +1,175 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Quicksand', sans-serif;
+	cursor: url("cursor3.png"), auto;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+a:hover{
+	color: #7665fc;
+	cursor: url(cursor4.png), auto;
+}
+
+.background{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+/*	object-fit: fill;
+*/}
+
+.container{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-items: center;
+/*	font-family: 'Baloo 2', cursive;
+*/
+/*	line-height: 35px;
+*/}
+
+.name{
+	position: absolute;
+	left: 50%;
+	top: 48%;
+	transform: translate(-50%, -50%);
+	max-width: 1000px;
+	text-align: center;
+	font-size: 2em;
+	line-height: 45px;
+}
+
+.navigation{
+	display: flex;
+	position: absolute;
+	left: 50%;
+	top: 60%;
+	transform: translate(-50%, -50%);
+	max-width: 600px;
+	column-gap: 4em;
+}
+
+.about{
+	display: inline-block;
+	position: relative;
+	color: black;
+	text-transform: lowercase;
+	font-weight: bold;
+/*	text-shadow: 0.5px 2px 0px #faceed;
+*/}
+
+.about:hover{
+	text-shadow: 2.1px 2px 2px #Fbd8fe;
+}
+
+/*.about:after{
+	content: '';
+	position: absolute;
+	width: 100%;
+	transform: scaleX(0);
+	height: 2px;
+	bottom: 0;
+	left: 0;
+	background-color: black;
+	transform-origin: center;
+	transition: transform 0.25s ease-out;
+}
+
+.about:hover:after{
+	transform: scaleX(1);
+	transform-origin: center;
+}
+*/
+.works{
+	display: inline-block;
+	position: relative;
+	color: black;
+	text-transform: lowercase;
+	font-weight: bold;
+/*	text-shadow: 0.5px 2px 0px #faceed;
+*/}
+
+.works:hover{
+	text-shadow: 2.1px 2px 2px #Fbd8fe;
+}
+
+/*.works:after{
+	content: '';
+	position: absolute;
+	width: 100%;
+	transform: scaleX(0);
+	height: 2px;
+	bottom: 0;
+	left: 0;
+	background-color: black;
+	transform-origin: center;
+	transition: transform 0.25s ease-out;
+}
+
+.works:hover:after{
+	transform: scaleX(1);
+	transform-origin: center;
+}
+*/
+/*.butterfly{
+	position: absolute;
+	width: 30%;
+	left: -5%;
+	top: -3%;
+	opacity: 50%;
+}
+
+.butterfly2{
+	position: absolute;
+	width: 30%;
+	right: -5%;
+	bottom: -5%;
+	opacity: 50%;
+}
+
+.smallbt{
+	position: absolute;
+	left: -1%;
+	transform: scaleX(-1);
+	opacity: 50%;
+}
+
+.smallbt2{
+	position: absolute;
+	left: -2.5%;
+	top: 15%;
+	transform: scaleX(1);
+	opacity: 50%;
+}
+
+.smallbt3{
+	position: absolute;
+	right: -2.5%;
+	bottom: 10%;
+	transform: scaleX(-1);
+	opacity: 50%;
+}*/
+
+.half{
+	position: absolute;
+	width: 28%;
+	overflow: hidden;
+	top: 10%;
+	left: 10.5%;
+}
+
+.half2{
+	position: absolute;
+	width: 28%;
+	overflow: hidden;
+	transform: scaleX(-1);
+	top: 10%;
+	right: 10.5%;
+}
+
+
