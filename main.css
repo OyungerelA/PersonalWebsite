@@ -3,7 +3,7 @@
 	margin: 0;
 	box-sizing: border-box;
 	font-family: 'Quicksand', sans-serif;
-	cursor: url("cursor3.png"), auto;
+	cursor: url("images/cursor3.png"), auto;
 }
 
 a{
@@ -12,8 +12,8 @@ a{
 }
 
 a:hover{
-	color: #7665fc;
-	cursor: url(cursor4.png), auto;
+	color: #Ba80f1;
+	cursor: url("images/cursor4.png"), auto;
 }
 
 .background{
