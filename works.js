@@ -53,5 +53,3 @@ document.getElementById("close").addEventListener("click", ()=>{
 	document.getElementById("box1").style.opacity = "1";
 	document.getElementById("box4").style.opacity = "1";
 })
-
-
